@@ -1,0 +1,14 @@
+## Used Patches
+- scratchpads
+- vanitygaps
+- steam 
+- tag previews
+- systray
+- Xresources
+- actualfullscreen
+- hide vacant tags
+- Cool autostart
+- alwayscenter
+- cyclelayouts
+- movestack
+- warp 
