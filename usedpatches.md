@@ -11,4 +11,5 @@
 - alwayscenter
 - cyclelayouts
 - movestack
-- warp 
+- warp
+- winicon

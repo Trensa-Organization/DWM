@@ -23,6 +23,8 @@ static int swallowfloating    = 1;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
+#define ICONSIZE 16   /* icon size */
+#define ICONSPACING 5 /* space between icon and title */
 static char *fonts[]          = { "Jetbrains Mono:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#222222";
@@ -170,7 +172,6 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ MODKEY,            			      XK_y,  	   togglescratch,  {.ui = 0 } },
 	{ MODKEY,            			      XK_u,	     togglescratch,  {.ui = 1 } },
-
   TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
